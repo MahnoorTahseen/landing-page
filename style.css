@@ -11,7 +11,7 @@ font-weight:700*/
     --Light-Red: rgb(255, 66, 66);
     --Dark-Cyan: rgb(0, 37, 46);
     /*  heading color */
-    --Pale-Blue: rgb(245, 250, 255);
+    --Pale-Blue: #f5faff;
 }
 
 * {
@@ -27,36 +27,27 @@ body {
     background-color: #ffff;
 }
 
-.start {
+body h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
 
+/* section-1 */
+.start {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 3rem;
-}
-
-.start span {
-    display: flex;
-}
-
-.start span img {
-    width: 3rem;
-    height: 2.5rem;
-    padding-top: 0.60rem;
-}
-
-.start h1 {
-    padding-left: 0.80rem;
-    color: var(--Dark-Cyan);
 }
 
 .start button {
     color: var(--Pink-color);
     border: 1px solid var(--Pink-color);
-    border-radius: 30px;
+    border-radius: 1.875rem;
     padding: 0.10rem 3rem;
     font-size: 1rem;
+
 }
 
 /* section-2 */
@@ -67,7 +58,6 @@ body {
 
 .section-2 h1 {
     color: var(--Dark-Cyan);
-    font-weight: 900;
     font-size: 2.7rem;
 }
 
@@ -104,7 +94,6 @@ body {
 }
 
 .section-4 div h1 {
-    font-weight: 2rem;
     font-size: 6rem;
     color: var(--Dark-Cyan);
 }
@@ -117,28 +106,30 @@ body {
 /* section-5 */
 .section-5 {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.div-1 {
-    color: var(--Dark-Cyan);
+.section-5-1 {
     padding-top: 10rem;
 }
 
-.div-1 h1 {
-    font-weight: 900;
+.section-5-1 h1 {
+    color: var(--Dark-Cyan);
     font-size: 2.75rem;
     margin-bottom: 1rem;
+    margin-left: 4rem;
 }
 
-.div-1 p {
+.section-5-1 p {
     font-weight: 600;
     font-size: 1rem;
+    margin-left: 4rem;
 }
 
 /* section-6 */
 .section-6 {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 12rem;
 }
 
@@ -147,8 +138,8 @@ body {
 }
 
 .section-6-head h1 {
-    font-weight: 900;
-    font-size: 2.75rem;
+    color: var(--Dark-Cyan);
+    font-size: 2.70rem;
 }
 
 .section-6-head p {
@@ -157,13 +148,33 @@ body {
 }
 
 /* section-7 */
-.section-7 {
+.section-7-0 {
     display: flex;
-    margin-top: 12rem;
+    flex-direction: column;
+    margin-top: 8rem;
 }
 
-.section-7-part1 {
+.section-7 {
+    display: flex;
+    background-color: #F6FBFF;
+}
+
+.section-7-1 {
     padding-top: 10rem;
+
+}
+
+.section-7-1 h1 {
+    color: var(--Dark-Cyan);
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+.section-7-1 p {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 4rem;
 }
 
 /* section-8 */
@@ -175,7 +186,6 @@ body {
 .section-8 h1 {
     color: var(--Dark-Cyan);
     font-size: 2.5rem;
-    font-weight: 900;
 }
 
 .section-8 button {
@@ -203,18 +213,26 @@ body {
     background-color: var(--Dark-Cyan);
     color: white;
     display: flex;
+    justify-content: space-around;
 
 }
 
 .section-9-img {
     display: flex;
     color: #ffff;
+    margin: 2rem;
 
 }
 
+.icon {
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
 .last-div input {
-    width: 15rem;
-    height: 2rem;
+    width: 17rem;
+    height: 3rem;
     border-radius: 0.75rem;
     border: none;
 }
@@ -222,8 +240,16 @@ body {
 .last-div button {
     background-color: var(--Pink-color);
     border: none;
-    width: 5rem;
-    height: 2rem;
+    width: 6rem;
+    height: 3rem;
     color: white;
     border-radius: 0.75rem;
+}
+
+.last h1 {
+    margin: 2rem;
+}
+
+.last p {
+    margin-bottom: 2rem;
 }
