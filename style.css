@@ -80,6 +80,39 @@ body h1 {
     font-size: 1.20rem;
 }
 
+/* section-2-mobile */
+.section-2-mobile {
+    display: none;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.section-2-mobile h1 {
+    color: var(--Dark-Cyan);
+    font-size: 4rem;
+}
+
+.section-2-mobile p {
+    text-align: center;
+    width: 36.875rem;
+    margin: 4rem auto;
+    line-height: 4rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.section-2-mobile button {
+    color: white;
+    background-color: var(--Pink-color);
+    border: 1px solid var(--Pink-color);
+    border-radius: 3.125rem;
+    padding: 2rem 7rem;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 10rem;
+}
+
+
 /* section-3 */
 .section-3 img {
     padding-left: 12.5rem;
@@ -124,6 +157,28 @@ body h1 {
     font-weight: 600;
     font-size: 1rem;
     margin-left: 4rem;
+}
+
+.section-5-mobile {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.section-5-1-mobile h1 {
+    color: var(--Dark-Cyan);
+    font-size: 4rem;
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    text-align: center;
+}
+
+.section-5-1-mobile p {
+    font-weight: 600;
+    font-size: 4rem;
+    margin-left: 4rem;
+    text-align: center;
 }
 
 /* section-6 */
@@ -175,6 +230,36 @@ body h1 {
     font-weight: 600;
     font-size: 1rem;
     margin-left: 4rem;
+}
+
+/* section-7-mobile */
+.section-7-0-mobile {
+    margin-top: 30rem;
+    margin-bottom: 30rem;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.section-7-mobile {
+    background-color: #F6FBFF;
+}
+
+.section-7-1-mobile h1 {
+    color: var(--Dark-Cyan);
+    font-size: 4rem;
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    text-align: center;
+}
+
+.section-7-1-mobile p {
+    font-weight: 600;
+    font-size: 4rem;
+    margin-left: 4rem;
+    text-align: center;
+
 }
 
 /* section-8 */
@@ -252,4 +337,176 @@ body h1 {
 
 .last p {
     margin-bottom: 2rem;
+}
+
+.section-9-mobile {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.section-9-1-mobile {
+    height: 170rem;
+    background-color: var(--Dark-Cyan);
+    color: white;
+    ;
+}
+
+.section-9-2-mobile {
+    text-align: center;
+}
+
+.section-9-2-mobile h1 {
+    font-size: 6rem;
+}
+
+.section-9-2-mobile p {
+    font-size: 4rem;
+}
+
+.mobile-placeholder input {
+    margin-top: 8rem;
+    width: 70rem;
+    height: 8rem;
+    border-radius: 0.75rem;
+    border: none;
+}
+
+.section-9-2-mobile button {
+    background-color: var(--Pink-color);
+    border: none;
+    width: 40rem;
+    height: 7rem;
+    color: white;
+    border-radius: 2rem;
+    font-size: 4rem;
+    margin-top: 5rem;
+    margin-left: 30rem;
+
+}
+
+.section-10 {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.section-10-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-10-1 h1 {
+    font-size: 5rem;
+    margin-left: 3rem;
+
+}
+
+.phone {
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.email {
+    font-size: 3rem;
+}
+
+.icon-9 {
+    margin-top: 15rem;
+    font-size: 9rem;
+}
+
+@media screen and (max-width:375px) {
+    .start {
+        padding: 10rem;
+    }
+
+    .start img {
+        width: 40%;
+    }
+
+    .start button {
+        font-size: 3.5rem;
+    }
+
+    .section-2 {
+        display: none;
+    }
+
+    .section-2-mobile {
+        display: block;
+    }
+
+    .section-4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section-4 img {
+        width: 9rem;
+    }
+
+    .section-4 div p {
+        font-size: 8rem;
+        padding: 4rem;
+    }
+
+    .section-5 {
+        display: none;
+    }
+
+    .section-5-mobile {
+        display: block;
+    }
+
+    .section-6 {
+        flex-direction: column;
+    }
+
+    .section-6 img {
+        width: 100%;
+    }
+
+    .section-6-head h1 {
+        color: var(--Dark-Cyan);
+        font-size: 4rem;
+        padding-top: 10rem;
+        margin-bottom: 5rem;
+        margin-left: 4rem;
+        text-align: center;
+    }
+
+    .section-6-head p {
+        font-weight: 600;
+        font-size: 4rem;
+        margin-left: 4rem;
+        text-align: center;
+    }
+
+    .section-7-0 {
+        display: none;
+    }
+
+    .section-7-0-mobile {
+        display: block;
+    }
+
+    .section-8 h1 {
+        color: var(--Dark-Cyan);
+        font-size: 4rem;
+    }
+
+    .section-8 button {
+        font-size: 4rem;
+        margin-bottom: 40rem;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .section-9-mobile {
+        display: block;
+    }
 }
